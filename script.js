@@ -17,8 +17,7 @@ async function displayMessage() {
     return;
   }
 
-  outputDiv.textContent = "Waiting...";
-
+  outputDiv.textContent = "";
   await wait(delay);
   outputDiv.textContent = message;
 }
